@@ -1,0 +1,29 @@
+{
+  "name": "mostly-adequate-code",
+  "version": "0.0.1",
+  "description": "Book Exercises",
+  "main": "index.js",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "lodash": "^4.17.10",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/accounting": "^0.4.1",
+    "@types/chai": "^4.1.4",
+    "@types/lodash": "^4.14.110",
+    "@types/mocha": "^5.2.4",
+    "@types/ramda": "^0.25.34",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha ./dist/*.spec.js"
+  },
+  "keywords": [
+    "fp",
+    "ts"
+  ],
+  "author": "Nick Nance",
+  "license": "ISC"
+}
