@@ -15,10 +15,14 @@
     "@types/mocha": "^5.2.4",
     "@types/ramda": "^0.25.34",
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
   },
   "scripts": {
-    "test": "mocha ./dist/*.spec.js"
+    "test": "mocha ./dist/*.spec.js",
+    "lint": "tslint ./src/**/*.ts",
+    "compile": "tsc"
   },
   "keywords": [
     "fp",
